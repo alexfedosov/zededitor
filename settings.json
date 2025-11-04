@@ -1,0 +1,128 @@
+{
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": true
+    }
+  },
+  "terminal": {
+    "toolbar": {
+      "breadcrumbs": false
+    }
+  },
+  "collaboration_panel": {
+    "dock": "right",
+    "button": false
+  },
+  "git_panel": {
+    "sort_by_path": false,
+    "dock": "right"
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+  "zoomed_padding": true,
+  "active_pane_modifiers": {
+    "border_size": 3.0,
+    "inactive_opacity": 0.8
+  },
+  "use_system_window_tabs": false,
+  "tabs": {
+    "show_diagnostics": "off",
+    "activate_on_close": "history",
+    "file_icons": true,
+    "git_status": false
+  },
+  "tab_bar": {
+    "show": true
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_branch_icon": true
+  },
+  "project_panel": {
+    "hide_hidden": false,
+    "hide_root": true,
+    "indent_guides": {
+      "show": "never"
+    },
+    "entry_spacing": "comfortable",
+    "hide_gitignore": false,
+    "default_width": 240.0,
+    "dock": "right",
+    "button": true
+  },
+  "search": {
+    "whole_word": false
+  },
+  "languages": {
+    "Scala": {
+      "prettier": {
+        "allowed": false
+      }
+    },
+    "TypeScript": {
+      "format_on_save": "on"
+    }
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "prettier": {
+    "allowed": true
+  },
+  "inlay_hints": {
+    "show_background": false,
+    "enabled": true
+  },
+  "hard_tabs": false,
+  "toolbar": {
+    "code_actions": true,
+    "breadcrumbs": true
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "auto_signature_help": true,
+  "autosave": "on_focus_change",
+  "agent_ui_font_size": 16.0,
+  "ui_font_weight": 400.0,
+  "ui_font_family": ".SystemUIFont",
+  "buffer_font_weight": 400.0,
+  "buffer_font_family": "CaskaydiaMono Nerd Font Mono",
+  "icon_theme": "Zed (Default)",
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "agent": {
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-5"
+    },
+    "always_allow_tool_actions": true
+  },
+  "vim_mode": true,
+  "ui_font_size": 16.0,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "Ayu Dark"
+  },
+  "lsp": {
+    "jsonnet-language-server": {
+      "settings": {
+        "resolve_paths_with_tanka": true,
+        "format_on_save": "off"
+      }
+    }
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true
+  },
+  "close_on_file_delete": true,
+  "format_on_save": "off",
+}
